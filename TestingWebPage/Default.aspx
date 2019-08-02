@@ -5,22 +5,14 @@
 <head runat="server">
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no">  
     <meta charset="utf-8">  
-  <title>QTSiH</title>
+  <title>Dashboardx</title>
 <script type="text/javascript"  src="Scripts/googlemap.js"></script>
      <script src="MapF.js"></script>
-
         <link href="StyleSheet.css" rel="stylesheet" />
   </head>
     <body>
-    <form id="form1" runat="server">
-    
-       
+    <form id="form1" runat="server">    
 <div id="map" >
-  
-
-    
 </div> <script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBitr9pMG67igLLSRp34uquGhG8DTDC3NU&callback=initMap" async defer ></script></form>
-      
-  
-  </body>  
+    </body>  
 </html> 
