@@ -25,14 +25,10 @@ window.onload = function () {
                     ItemName: elements[i]['ClientID']
 
                     //ItemName4: elements[i]['Manager_Review']
-
-
                 });
-
                 //create the option and append to the dropdown
                 var opt = DataDesc[i + 1].ItemName;
-                
-                var el = document.createElement("option");
+                       var el = document.createElement("option");
                 el.textContent = opt;
                 el.value = opt;
                 select.appendChild(el);
