@@ -38,7 +38,7 @@ public class DefaultW2 : System.Web.Services.WebService {
         string connstr = ConfigurationManager.ConnectionStrings["DBL"].ConnectionString;
         SqlConnection conn = new SqlConnection(connstr);
         conn.Open();
-        
+        //This will to run the DB query with user entered value specificaly 
         //insert into Claim_Status_Trans(Claim_ID,Claim_Status,Status,Deleted_Flag,Row_upd_date)values(@claimid,7,1,0,@rowupddate)
         string qry1 = "insert into SendDataTable(Name, Number, Email, Subj, Message)values('" + Name + "','" + Number + "','" + Email + "','" + Subj + "','" + Message + "')";
         SqlCommand movestoclaims = new SqlCommand(qry1, conn);
